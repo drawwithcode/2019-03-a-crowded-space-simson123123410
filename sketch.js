@@ -59,7 +59,7 @@ clicked(px, py){
 show(){
     stroke(188,10,225,50);
     strokeWeight(4);
-    noFill(this.brightness, 125);
+    fill(this.brightness, 25,30);
     ellipse(this.x, this.y, this.r * 2);
  }
 }
